@@ -222,7 +222,7 @@ public class Launcher extends Application{
             public void handle(ActionEvent event) {   
             		outputLog.clear();
                     //Create new Task and Thread -  Bind Progress Property to Task Progress
-                    Task task = taskCreator(urlInput.getText(), orgInput.getText(), usernameInput.getText(),passwordInput.getText());
+                    Task task = taskCreator(urlInput.getText(), orgInput.getText(), usernameInput.getText(),passwordInput.getText(), button);
                     new Thread(task).start();
                     pb.progressProperty().unbind();
                     pb.progressProperty().bind(task.progressProperty());
@@ -275,7 +275,7 @@ public class Launcher extends Application{
 		window.show();
 	}
 	
-    private Task taskCreator(String url, String org, String username, String pwd){
+    private Task taskCreator(String url, String org, String username, String pwd, Button b){
         return new Task() {
                    @Override
                    protected Object call() throws Exception {
@@ -284,6 +284,7 @@ public class Launcher extends Application{
                		//THe constructor should invoke a run() method that will invoke all methods that are currently in the main.
                		JSUsersRolesExtractor ex = new JSUsersRolesExtractor();
        				Instant start = Instant.now();
+       				b.setDisable(true);
        				ex.setUpConfig(url, org, username, pwd);	
        				updateProgress(0, 1.0);
        				String urlReq = ex.setUpLoginReq();
@@ -374,6 +375,7 @@ public class Launcher extends Application{
           				outputMessages.append("[Error] Invalid input. Verify validity of the configuration settings.\n");
            				outputLog.setText(outputMessages.toString());
                		} 
+       				b.setDisable(false);
                		Instant end = Instant.now();
        				Duration d = Duration.between(start, end);
        				float elapsedTime = (float)d.toMillis()/1000;
