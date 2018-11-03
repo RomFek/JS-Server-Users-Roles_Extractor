@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/Java Library for working with Excel/poi-4.0.0/poi-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/Java Library for working with Excel/poi-4.0.0/poi-examples-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/Java Library for working with Excel/poi-4.0.0/poi-excelant-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/Java Library for working with Excel/poi-4.0.0/poi-ooxml-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/Java Library for working with Excel/poi-4.0.0/poi-ooxml-schemas-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/Java Library for working with Excel/poi-4.0.0/poi-scratchpad-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/commons-collections4-4.2-bin/commons-collections4-4.2/commons-collections4-4.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/commons-collections4-4.2-bin/commons-collections4-4.2/commons-collections4-4.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/commons-collections4-4.2-bin/commons-collections4-4.2/commons-collections4-4.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/commons-collections4-4.2-bin/commons-collections4-4.2/commons-collections4-4.2-tests.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/commons-collections4-4.2-bin/commons-collections4-4.2/commons-collections4-4.2-test-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/commons-compress-1.18-bin/commons-compress-1.18/commons-compress-1.18.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/commons-compress-1.18-bin/commons-compress-1.18/commons-compress-1.18-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/commons-compress-1.18-bin/commons-compress-1.18/commons-compress-1.18-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/commons-compress-1.18-bin/commons-compress-1.18/commons-compress-1.18-tests.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/commons-compress-1.18-bin/commons-compress-1.18/commons-compress-1.18-test-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/xmlbeans-bin-3.0.1-20180824/xmlbeans-3.0.1/lib/resolver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/xmlbeans-bin-3.0.1-20180824/xmlbeans-3.0.1/lib/xbean.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/xmlbeans-bin-3.0.1-20180824/xmlbeans-3.0.1/lib/xbean_xpath.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/xmlbeans-bin-3.0.1-20180824/xmlbeans-3.0.1/lib/xmlpublic.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/httpclient-4.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/httpcore-4.4.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/javax.mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/jasperreports-chart-customizers-6.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/APIs/XML/jdom-2.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/APIs/XML/jdom-2.0.6-contrib.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/APIs/XML/jdom-2.0.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/APIs/XML/jdom-2.0.6-junit.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/APIs/XML/jdom-2.0.6-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/APIs/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/httpcomponents-client-4.5.6-bin/httpcomponents-client-4.5.6/lib/httpclient-4.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/httpcomponents-client-4.5.6-bin/httpcomponents-client-4.5.6/lib/httpclient-cache-4.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/httpcomponents-client-4.5.6-bin/httpcomponents-client-4.5.6/lib/httpclient-win-4.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/httpcomponents-client-4.5.6-bin/httpcomponents-client-4.5.6/lib/httpcore-4.4.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/httpcomponents-client-4.5.6-bin/httpcomponents-client-4.5.6/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/httpcomponents-client-4.5.6-bin/httpcomponents-client-4.5.6/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/httpcomponents-client-4.5.6-bin/httpcomponents-client-4.5.6/lib/fluent-hc-4.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/httpcomponents-client-4.5.6-bin/httpcomponents-client-4.5.6/lib/httpmime-4.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/httpcomponents-client-4.5.6-bin/httpcomponents-client-4.5.6/lib/jna-4.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/httpcomponents-client-4.5.6-bin/httpcomponents-client-4.5.6/lib/jna-platform-4.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/fekro01/Downloads/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
